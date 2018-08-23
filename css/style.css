@@ -1,3 +1,46 @@
-.everythingwrapper {
+.everythingWrapper {
     background-image: url(../assets/images/leaves-pattern.png);
+    height: 100vh;
+    padding-top: 20px;
+    border-top: 1px solid #aaa;
+}
+
+#myName {
+    background-color: #4aaaa5;
+    color: white;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    border: solid #4aaaa5 10px;
+    margin: 0px;
+}
+
+.stickyFooter {
+    border-bottom: 1px solid #aaa;
+}
+.CNT{
+    background: white;
+    border: solid 1px #aaa;
+    padding: -50px -50px; 
+}
+
+.navbar{
+    /* border-bottom: solid 1px #aaa; */
+    background: white !important;
+}
+
+footer{
+    background: grey !important;
+    border-top: solid #4aaaa5 5px !important;
+    text-align: center;
+    color: white;
+}
+.navbar-brand{
+    background: #4aaaa5;
+    border: 10px solid #4aaaa5;
+    color: white !important ;    
+}
+
+.AboutMe {
+    color: #4aaaa5;
 }
