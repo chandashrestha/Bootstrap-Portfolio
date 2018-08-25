@@ -1,8 +1,18 @@
+body{
+    background-image: url(../assets/images/leaves-pattern.png);
+}
+
+
 .everythingWrapper {
     background-image: url(../assets/images/leaves-pattern.png);
     height: 100vh;
     padding-top: 20px;
     border-top: 1px solid #aaa;
+}
+
+#mainphoto {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 #myName {
@@ -50,11 +60,30 @@ footer{
     margin-top: 3%;
 }
 
-.imgfirst {
-    width: 200px;
-    height: 200px   
-}
+.banner {
+        bottom: 30px;
+        left: 0px;
+        background: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        bottom: 10%;
+        position: relative;
+        width: 300px;
+        margin-bottom: -30px;
+    }
 
 .form-group {
     color: black;
+}
+
+.col{
+    width: 200px;
+    height: 200px;
+}
+
+.img-thumbnail {
+        background-size: cover;
+        position: sticky;
+        width: 300px;
+        height: 300px;
 }
