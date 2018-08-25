@@ -51,5 +51,10 @@ footer{
 }
 
 .imgfirst {
-   
+    width: 200px;
+    height: 200px   
+}
+
+.form-group {
+    color: black;
 }
